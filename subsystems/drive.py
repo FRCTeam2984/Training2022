@@ -25,6 +25,6 @@ class Drive:
       self.setRightSpeed(right)
 
    def customDrive(self, left_x, left_y, right_x, right_y):
-      left_speed = left_y + left_x
-      right_speed = left_y - left_x
+      left_speed = left_y
+      right_speed = right_y
       self.setSpeed(left_speed, right_speed)
